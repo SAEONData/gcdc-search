@@ -167,11 +167,8 @@
     "no-underscore-dangle": 0,       // http://eslint.org/docs/rules/no-underscore-dangle
     "one-var": [2, "never"],         // http://eslint.org/docs/rules/one-var
     "padded-blocks": [0, "never"],   // http://eslint.org/docs/rules/padded-blocks
-    "semi": [2, "always"],           // http://eslint.org/docs/rules/semi
-    "semi-spacing": [2, {            // http://eslint.org/docs/rules/semi-spacing
-      "before": false,
-      "after": true
-    }],
+    "semi": [0],                     // http://eslint.org/docs/rules/semi
+    "semi-spacing": [ 0 ],          // http://eslint.org/docs/rules/semi-spacing
     "space-after-keywords": 2,       // http://eslint.org/docs/rules/space-after-keywords
     "space-before-blocks": 2,        // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren

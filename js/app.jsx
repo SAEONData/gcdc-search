@@ -37,7 +37,14 @@ ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
  *     }]
  * });
  */
-const appConfig = require('@mapstore/product/appConfig');
+    const appConfig = Object.assign({}, require('@mapstore/product/appConfig'), {
+        pages: [{
+        name: "mapviewer",
+        path: "/",
+        component: require('@mapstore/product/pages/MapViewer')
+       }]
+    });
+
 
 /**
  * Define a custom list of plugins with:
